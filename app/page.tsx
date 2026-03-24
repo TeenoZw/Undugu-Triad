@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ContactForm from "./components/ContactForm";
 import SiteHeader from "./components/SiteHeader";
 
 const showcaseImages = [
@@ -293,60 +294,7 @@ export default function Home() {
 
             <article className="contact-card">
               <h3>Project enquiry</h3>
-              <form
-                name="contact"
-                method="POST"
-                data-netlify="true"
-                data-netlify-honeypot="bot-field"
-                action="/success"
-              >
-                <input type="hidden" name="form-name" value="contact" />
-                <input type="hidden" name="bot-field" />
-
-                <label>
-                  Full name
-                  <input type="text" name="name" placeholder="Your full name" required />
-                </label>
-
-                <label>
-                  Email address
-                  <input type="email" name="email" placeholder="you@example.com" required />
-                </label>
-
-                <label>
-                  Phone number
-                  <input type="tel" name="phone" placeholder="+263 ..." />
-                </label>
-
-                <label>
-                  Enquiry type
-                  <select name="enquiry_type" required defaultValue="">
-                    <option value="" disabled>
-                      Select an option
-                    </option>
-                    <option value="product-supply">Product supply</option>
-                    <option value="installation">Installation</option>
-                    <option value="interior-finishing-design">
-                      Interior finishing design
-                    </option>
-                    <option value="general-engineering">General engineering</option>
-                  </select>
-                </label>
-
-                <label>
-                  Project details
-                  <textarea
-                    name="message"
-                    rows={6}
-                    placeholder="Tell us what you need, the location, and your timeline."
-                    required
-                  />
-                </label>
-
-                <button className="button" type="submit">
-                  Send enquiry
-                </button>
-              </form>
+              <ContactForm />
             </article>
           </div>
         </section>
