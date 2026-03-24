@@ -1,0 +1,112 @@
+<svg width="1536" height="1024" viewBox="0 0 1536 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1536" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7B6B5"/>
+      <stop offset="0.5" stop-color="#8D8178"/>
+      <stop offset="1" stop-color="#A9A79F"/>
+    </linearGradient>
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(553 675) rotate(90) scale(278 254)">
+      <stop stop-color="#0B78FF" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#0B78FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orangeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(771 240) rotate(90) scale(222 209)">
+      <stop stop-color="#FF7A00" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#FF7A00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="greenGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(996 610) rotate(90) scale(284 258)">
+      <stop stop-color="#48D114" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#48D114" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="blueArc" x1="447" y1="586" x2="810" y2="284" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#003FAF"/>
+      <stop offset="0.52" stop-color="#118DDE"/>
+      <stop offset="1" stop-color="#0B4DB8"/>
+    </linearGradient>
+    <linearGradient id="greenArc" x1="845" y1="693" x2="1139" y2="423" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7BE20A"/>
+      <stop offset="0.55" stop-color="#27A118"/>
+      <stop offset="1" stop-color="#0E7D1B"/>
+    </linearGradient>
+    <linearGradient id="orangeArc" x1="581" y1="283" x2="967" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4E00"/>
+      <stop offset="0.5" stop-color="#FF6C00"/>
+      <stop offset="1" stop-color="#FFB017"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="640" y1="306" x2="924" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2D3135"/>
+      <stop offset="0.34" stop-color="#8D9397"/>
+      <stop offset="0.65" stop-color="#474C50"/>
+      <stop offset="1" stop-color="#16191C"/>
+    </linearGradient>
+    <linearGradient id="triangleStroke" x1="735" y1="357" x2="843" y2="526" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D7DCE0"/>
+    </linearGradient>
+    <linearGradient id="triangleFill" x1="769" y1="390" x2="769" y2="504" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5F656A"/>
+      <stop offset="1" stop-color="#23272B"/>
+    </linearGradient>
+    <linearGradient id="wordBlue" x1="272" y1="731" x2="782" y2="731" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#004AB4"/>
+      <stop offset="1" stop-color="#0862C6"/>
+    </linearGradient>
+    <linearGradient id="wordGreen" x1="838" y1="731" x2="1274" y2="731" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#178A12"/>
+      <stop offset="1" stop-color="#0A6412"/>
+    </linearGradient>
+    <filter id="blurBg" x="-40" y="-40" width="1616" height="1104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="outerGlow" x="368" y="118" width="801" height="669" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+    <filter id="softShadow" x="406" y="189" width="720" height="585" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+    <filter id="textShadow" x="213" y="608" width="1110" height="223" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#blurBg)">
+    <rect width="1536" height="1024" fill="url(#bg)"/>
+  </g>
+
+  <g filter="url(#outerGlow)">
+    <ellipse cx="553" cy="675" rx="218" ry="195" fill="url(#blueGlow)"/>
+    <ellipse cx="771" cy="240" rx="176" ry="154" fill="url(#orangeGlow)"/>
+    <ellipse cx="996" cy="610" rx="224" ry="203" fill="url(#greenGlow)"/>
+  </g>
+
+  <g filter="url(#softShadow)" stroke="#1C1C1C" stroke-opacity="0.45">
+    <path d="M594 286C667 333 718 398 734 470C649 439 558 443 479 481C498 400 540 333 594 286Z" fill="url(#blueArc)" stroke-width="1.4"/>
+    <path d="M817 286C904 347 959 441 962 543C918 460 841 398 742 373C754 337 780 308 817 286Z" fill="url(#orangeArc)" stroke-width="1.4"/>
+    <path d="M903 423C969 482 1008 569 989 648C942 592 873 558 790 549C822 501 858 458 903 423Z" fill="url(#greenArc)" stroke-width="1.4"/>
+
+    <path d="M530 420C620 420 697 462 742 529C672 526 607 546 552 588C516 560 500 519 530 420Z" fill="url(#blueArc)" stroke-width="1.4"/>
+    <path d="M639 436C705 463 757 515 782 585C713 571 642 579 580 610C573 543 589 485 639 436Z" fill="url(#greenArc)" opacity="0.96" stroke-width="1.2"/>
+
+    <circle cx="765" cy="125" r="55" fill="#FF7A00" stroke-width="1.4"/>
+    <circle cx="530" cy="487" r="52" fill="#004DB0" stroke-width="1.4"/>
+    <circle cx="1008" cy="486" r="52" fill="#11951B" stroke-width="1.4"/>
+
+    <path d="M625 326C557 372 504 446 488 529" stroke="#40A7FF" stroke-width="16" stroke-linecap="round" opacity="0.7"/>
+    <path d="M823 319C890 370 931 440 927 534" stroke="#FFBD3E" stroke-width="16" stroke-linecap="round" opacity="0.58"/>
+    <path d="M887 447C931 496 952 558 938 614" stroke="#C7FF2A" stroke-width="14" stroke-linecap="round" opacity="0.52"/>
+  </g>
+
+  <g transform="translate(769 403)">
+    <path d="M0 -118L28 -108L57 -118L74 -93L104 -88L108 -58L133 -38L124 -9L140 18L120 42L124 71L95 81L80 108L48 103L22 123L-7 109L-40 113L-57 86L-87 79L-90 48L-115 28L-106 -1L-121 -28L-102 -52L-106 -82L-78 -94L-62 -121L-31 -115L0 -118Z" fill="url(#metal)" stroke="#22272B" stroke-width="3"/>
+    <circle cx="0" cy="0" r="88" fill="#E7EAED" fill-opacity="0.1"/>
+    <path d="M0 -86L74 42H-74L0 -86Z" fill="none" stroke="url(#triangleStroke)" stroke-width="18" stroke-linejoin="round"/>
+    <path d="M0 -38L48 33H-48L0 -38Z" fill="url(#triangleFill)"/>
+  </g>
+
+  <g filter="url(#textShadow)">
+    <text x="262" y="746" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="800" fill="url(#wordBlue)" letter-spacing="-2">UNDUGU</text>
+    <text x="836" y="746" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="800" fill="url(#wordGreen)" letter-spacing="-2">TRIAD</text>
+    <line x1="266" y1="795" x2="438" y2="795" stroke="#2D2D2D" stroke-width="4"/>
+    <line x1="1030" y1="795" x2="1212" y2="795" stroke="#2D2D2D" stroke-width="4"/>
+    <text x="463" y="814" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="500" letter-spacing="24" fill="#2E2E30">ENGINEERING</text>
+  </g>
+</svg>
